@@ -58,7 +58,7 @@ Este projeto tem como objetivo analisar as tendências de cosméticos e produtos
 ```bash
 git clone https://github.com/gabrielvieirad/analise-tendencias-cosmeticos.git
 cd analise-tendencias-cosmeticos
-
+```
 2️⃣ Crie um ambiente virtual e instale as dependências:
 ```bash
 python -m venv venv
