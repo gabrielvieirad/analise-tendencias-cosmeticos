@@ -60,17 +60,20 @@ git clone https://github.com/gabrielvieirad/analise-tendencias-cosmeticos.git
 cd analise-tendencias-cosmeticos
 
 2️⃣ Crie um ambiente virtual e instale as dependências:
+```bash
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 
 3️⃣ Execute os scripts de coleta de dados:
+```bash
 python scraping/tiktok_scraper.py
 python scraping/instagram_scraper.py
 python scraping/marketplaces_scraper.py
 
 4️⃣ Analise os dados e visualize as tendências:
+```bash
 python analysis/trends_analysis.py
 streamlit run visualization/dashboard.py
 
