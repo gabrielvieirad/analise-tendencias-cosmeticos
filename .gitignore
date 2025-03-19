@@ -1,0 +1,14 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar dados temporários
+data/
+*.csv
+*.log
+
+# Ignorar arquivos do ChromeDriver
+chromedriver.exe
