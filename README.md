@@ -41,32 +41,32 @@ venv\Scripts\activate  # Windows
 source venv/bin/activate  # Mac/Linux
 
 pip install -r requirements.txt
-
+```
 3. Execute os scripts desejados:
 python scripts/amazon_scraper.py
 python scripts/beleza_scraper.py
 python scripts/google_trends_scraper.py
 python scripts/twitter_scraper.py
 python scripts/instagram_scraper.py
-
-## 📊 Resultados
+```
+### 📊 Resultados
 Os dados coletados são armazenados em arquivos .csv na pasta /data. Esses arquivos serão utilizados posteriormente para análise e visualização com Streamlit ou outra ferramenta.
 ---
-## 🔐 Notas sobre autenticação
+### 🔐 Notas sobre autenticação
 - Para Twitter: é necessário fornecer uma BEARER_TOKEN válida.
 - Para Instagram: é necessário ter uma conta comercial e gerar um token via Graph API da Meta.
 ---
-## 🧪 Testes e Validação
+### 🧪 Testes e Validação
 Os scripts foram testados localmente com logs de execução. Os scrapers utilizam técnicas de fallback e tratamento de erros para sites dinâmicos.
 ---
-## 📌 Status do Projeto
+### 📌 Status do Projeto
 - Coleta dos marketplaces: ✅ Finalizada
 - Google Trends: ✅ Implementado 
 - Twitter: ⚠️ Em desenvolvimento (limites de API)
 - Instagram: ⚠️ Em fase de autenticação e testes
 - Visualização: 🔜 Em breve com Streamlit
 ---
-## 📄 Licença
+### 📄 Licença
 Este projeto é de uso educacional e experimental. Verifique os termos de uso das APIs e dos sites antes de uso comercial.
 ---
 
